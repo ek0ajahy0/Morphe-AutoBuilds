@@ -10,12 +10,12 @@ on:
         description: 'App name (from apps/ folder)'
         required: true
         type: string
-        default: 'youtube'
+        default: 'spotify'
       source:
         description: 'Source name (from sources/ folder)'
         required: true
         type: string
-        default: 'revanced'
+        default: 'morphe'
       version:
         description: 'Specific version (leave empty for latest)'
         required: false
