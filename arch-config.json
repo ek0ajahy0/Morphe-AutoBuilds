@@ -34,4 +34,9 @@
     "source": "revanced",
     "arches": ["arm64-v8a", "armeabi-v7a"]
   }
+  {
+    "app_name": "spotify",
+    "source": "morphe",
+    "arches": ["universal"]
+  },
 ]
