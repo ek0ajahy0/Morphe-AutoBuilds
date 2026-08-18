@@ -6,12 +6,12 @@ env:
 on:
   workflow_dispatch:
     inputs:
-      app_name:
+      app_name: "spotify-music-podcasts",
         description: 'App name (from apps/ folder)'
         required: true
         type: string
-        default: 'spotify'
-      source:
+        default: 'youtub'
+      source: 'morphe'
         description: 'Source name (from sources/ folder)'
         required: true
         type: string
@@ -21,7 +21,7 @@ on:
         required: false
         type: string
         default: ''
-      architecture:
+      architecture: 
         description: 'Architecture to build'
         required: false
         type: choice
